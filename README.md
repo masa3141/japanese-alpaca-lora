@@ -7,7 +7,7 @@ This project is based on [LLaMA](https://ai.facebook.com/blog/large-language-mod
 
 ## Data
 We translated the [alpaca_data.json](https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json) to japanese using ChatGPT API.
-We paid around US $45 to translate the full dataset to portuguese.
+We paid around US $45 to translate the full dataset to japanese. Translated data is available. ([japanese_alpaca_data.json](data/japanese_alpaca_data.json))
 
 ## Finetuning
 We just followed [Alpaca Lora](https://github.com/tloen/alpaca-lora). We could run finetuning step using Google Colab PRO+. It took 6.5 hours for finetuning.
