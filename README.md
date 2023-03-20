@@ -1,5 +1,5 @@
 # Japanese-Alpaca-LoRA
-A japanese finetuned instruction LLaMA.
+A Japanese finetuned instruction LLaMA.
 
 In accordance with other models being referenced, this model is not available for commercial use and can only be used for research purposes.
 
@@ -11,7 +11,7 @@ We translated the [alpaca_data.json](https://github.com/tatsu-lab/stanford_alpac
 We paid around US $45 to translate the full dataset to japanese. Translated data is available. ([japanese_alpaca_data.json](data/japanese_alpaca_data.json))
 
 ## Finetuning
-We just followed [Alpaca Lora](https://github.com/tloen/alpaca-lora). We could run finetuning step using Google Colab PRO+. It took 6.5 hours for finetuning.
+We just followed [Alpaca LoRA](https://github.com/tloen/alpaca-lora) and [cabrita](https://github.com/22-hours/cabrita). We could run finetuning step using Google Colab PRO+. It took 6.5 hours for finetuning.
 
 ## Example outputs
 ### Good Examples
